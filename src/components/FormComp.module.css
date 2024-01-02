@@ -1,0 +1,34 @@
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: aliceblue;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(194, 143, 143);
+    width: 30%;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px;
+}
+form div input{
+    padding: 0.3rem;
+}
+
+form div label{
+    font-weight: 500;
+}
+form button{
+    padding: 10px;
+    width: 25%;
+    display: inline-block;
+    position: relative;
+    align-self: flex-end;
+    border-radius: 10px;
+    background-color: aquamarine;
+    margin-left: 1%;
+}
